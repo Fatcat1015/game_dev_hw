@@ -9,7 +9,8 @@
     {"id":{"name":"spr_bunnies_chase","path":"sprites/spr_bunnies_chase/spr_bunnies_chase.yy",},"order":0,},
     {"id":{"name":"obj_star","path":"objects/obj_star/obj_star.yy",},"order":1,},
     {"id":{"name":"spr_explode","path":"sprites/spr_explode/spr_explode.yy",},"order":1,},
-    {"id":{"name":"spr_bunnies_charge","path":"sprites/spr_bunnies_charge/spr_bunnies_charge.yy",},"order":1,},
+    {"id":{"name":"spr_bunnies_idle","path":"sprites/spr_bunnies_idle/spr_bunnies_idle.yy",},"order":1,},
+    {"id":{"name":"obj_pEnemy","path":"objects/obj_pEnemy/obj_pEnemy.yy",},"order":4,},
     {"id":{"name":"spr_bunnies_attack","path":"sprites/spr_bunnies_attack/spr_bunnies_attack.yy",},"order":2,},
     {"id":{"name":"spr_die","path":"sprites/spr_die/spr_die.yy",},"order":2,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
@@ -57,7 +58,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.2.558",
+    "IDEVersion": "2.3.2.560",
   },
   "resourceVersion": "1.4",
   "name": "Gp game dev",

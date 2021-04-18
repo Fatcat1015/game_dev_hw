@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+event_inherited();
 target_x = 0;
 target_y = 0;
 enemySpeed = 1.5;
@@ -9,3 +10,4 @@ star_die = 2;
 state = star_chase;
 HP = 5;
 Damage = 5;
+
