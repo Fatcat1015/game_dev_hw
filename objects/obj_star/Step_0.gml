@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+event_inherited();
 switch(state)
 {
 	case star_chase:
@@ -19,6 +20,9 @@ switch(state)
 			Xspeed = lengthdir_x(distanceToGo,dir);
 			Yspeed = lengthdir_y(distanceToGo,dir);
 		}
+		x+=Xspeed;
+		y += Yspeed;
+		/*
 		if(place_meeting(x + Xspeed, y, obj_collision))
 		{
 	
@@ -30,7 +34,7 @@ switch(state)
 				Xspeed = 0;
 	
 		}
-		x+=Xspeed;
+		
 
 		if(place_meeting(x , y+ Yspeed, obj_collision))
 		{
@@ -43,7 +47,7 @@ switch(state)
 				Yspeed = 0;
 	
 		}
-		y += Yspeed;
+		*/
 
 		if(place_meeting(x , y+Xspeed, obj_player))
 		{
@@ -59,9 +63,12 @@ switch(state)
 			break;
 		}
 		
+		
+		
 		if(HP <= 0)
 		{
 			state = star_die;
+			break;
 		}
 		
 		break;
@@ -84,7 +91,20 @@ switch(state)
 			instance_destroy();
 		}
 		break;
-		
+	
+	case star_hit:
+		if(HP<=0)
+		{
+			state = star_die;
+		}
+		sprite_index = spr_hit;
+		stun_timer++;
+		if(stun_timer >= 0.5*room_speed)
+		{
+			state = star_chase;
+			stun_timer = 0;
+		}
+		break;
 }
 	
 

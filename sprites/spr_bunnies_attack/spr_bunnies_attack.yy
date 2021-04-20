@@ -78,7 +78,7 @@
   "nineSlice": null,
   "parent": {
     "name": "bunnies",
-    "path": "folders/Sprites/bunnies.yy",
+    "path": "folders/Sprites/enemy level1/bunnies.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_bunnies_attack",

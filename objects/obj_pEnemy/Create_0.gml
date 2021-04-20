@@ -3,4 +3,3 @@
 HP = 0;
 Damage = 0;
 enemySpeed = 0;
-event_inherited();

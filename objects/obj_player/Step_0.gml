@@ -2,9 +2,6 @@
 // You can write your code in this editor
 Speed = 5;
 
-old_xSpd = Xspeed;
-old_ySpd = Yspeed;
-
 Xspeed = 0;
 Yspeed = 0;
 
@@ -67,6 +64,13 @@ for (i=1; i<abs(Yspeed); i++)
 }
 
 
+
+depth = -y;
+
+if(HP<=0)
+{
+	instance_destroy();
+}
 
 
 

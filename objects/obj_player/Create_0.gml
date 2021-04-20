@@ -5,5 +5,7 @@ Yspeed = 0;
 
 Speed = 5;
 
+HP = 10;
+
 
 

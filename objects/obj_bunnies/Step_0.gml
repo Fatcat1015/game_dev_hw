@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+event_inherited();
 target_x = obj_player.x;
 target_y = obj_player.y;
 var distanceToGo = point_distance(x,y,target_x ,target_y);
@@ -24,11 +25,11 @@ switch(state)
 		}
 		if(distanceToGo < attack_range)
 		{
-			state = idle;
+			state = attack;
 		}
-
-		
-		
+		x+=Xspeed;
+		y += Yspeed;
+		/*
 		if(place_meeting(x + Xspeed, y, obj_collision))
 		{
 	
@@ -40,7 +41,7 @@ switch(state)
 				Xspeed = 0;
 	
 		}
-		x+=Xspeed;
+		
 
 		if(place_meeting(x , y+ Yspeed, obj_collision))
 		{
@@ -53,7 +54,7 @@ switch(state)
 				Yspeed = 0;
 	
 		}
-		y += Yspeed;
+		*/
 		
 		
 		
@@ -67,11 +68,14 @@ switch(state)
 		}
 		break;
 		
+	
+		
 	case attack:
 		sprite_index = spr_bunnies_attack;
 		if(Xspeed > 0)
 		{
 			image_xscale = 1;
+			
 		}
 		else
 		{
@@ -81,7 +85,7 @@ switch(state)
 		if(distanceToGo > attack_range)
 		{
 			state = idle;
-			attack_timer = 0;
+			//attack_timer = 0;
 		}
 		break;
 		
@@ -95,22 +99,42 @@ switch(state)
 				state = chase;
 				chase_timer = 0;
 			}
-			
+			break;
 			
 		}
-		
-		if(distanceToGo < attack_range)
+		else
 		{
 			attack_timer++;
-			if(attack_timer >= 1*room_speed)
+			if(attack_timer >= 0.1*room_speed)
 			{
 				state = attack;
 				attack_timer = 0;
 			}
-			
+			break;
 			
 		}
+		break;
+	
+	case hit:
+		sprite_index = spr_bunnies_hit;
+		stun_timer++;
+		if(stun_timer >= 0.5*room_speed)
+		{
+			state = chase;
+			stun_timer = 0;
+		}
+		break;
+		
+	case die:
+		sprite_index = spr_bunnies_die;
+		image_alpha -= 0.1;
+		if(image_alpha <=0)
+		{
+			instance_destroy();
+		}
+		break;
 		
 
 }
+
 

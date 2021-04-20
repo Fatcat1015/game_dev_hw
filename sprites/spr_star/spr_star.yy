@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "stars level 1",
-    "path": "folders/Sprites/stars level 1.yy",
+    "path": "folders/Sprites/enemy level1/stars level 1.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_star",
