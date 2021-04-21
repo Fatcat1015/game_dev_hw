@@ -5,8 +5,8 @@ switch(state)
 {
 	case star_chase:
 		sprite_index = spr_star;
-		target_x  = obj_player.x;
-		target_y = obj_player.y;
+		target_x  = Obj_Char.x;
+		target_y = Obj_Char.y;
 
 		var distanceToGo = point_distance(x,y,target_x ,target_y);
 		dir = point_direction(x,y,target_x ,target_y);
@@ -49,14 +49,14 @@ switch(state)
 		}
 		*/
 
-		if(place_meeting(x , y+Xspeed, obj_player))
+		if(place_meeting(x , y+Xspeed, Obj_Char))
 		{
 			state = star_explode;
 			
 			break;
 	
 		}
-		if(place_meeting(x + Yspeed , y, obj_player))
+		if(place_meeting(x + Yspeed , y, Obj_Char))
 		{
 			state = star_explode;
 			

@@ -1,8 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 event_inherited();
-target_x = obj_player.x;
-target_y = obj_player.y;
+target_x = Obj_Char.x;
+target_y = Obj_Char.y;
 var distanceToGo = point_distance(x,y,target_x ,target_y);
 
 if(HP <= 0)
