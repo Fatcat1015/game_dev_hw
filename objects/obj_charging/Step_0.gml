@@ -3,8 +3,8 @@
 event_inherited();
 restore_timer++;
 
-target_x = obj_player.x;
-target_y = obj_player.y;
+target_x = Obj_Char.x;
+target_y = Obj_Char.y;
 
 sprite_index = spr_charging;
 		

@@ -29,34 +29,6 @@ switch(state)
 		}
 		x+=Xspeed;
 		y += Yspeed;
-		/*
-		if(place_meeting(x + Xspeed, y, obj_collision))
-		{
-	
-	
-				while(!place_meeting(x+sign(Xspeed),y,obj_collision))
-				{
-					x += sign(Xspeed);
-				}
-				Xspeed = 0;
-	
-		}
-		
-
-		if(place_meeting(x , y+ Yspeed, obj_collision))
-		{
-
-	
-				while(!place_meeting(x,y+sign(Yspeed),obj_collision))
-				{
-					y += sign(Yspeed);
-				}
-				Yspeed = 0;
-	
-		}
-		*/
-		
-		
 		
 		if(Xspeed > 0)
 		{
