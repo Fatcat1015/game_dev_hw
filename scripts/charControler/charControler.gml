@@ -38,8 +38,9 @@ switch(weapon){
 		break;		
 		}
 		
+condition=!keyboard_check(ord("Q"))||weapon=="NoWeapon";
 if keyboard_check(vk_up){//up
-	dir=4;
+	if(condition==true){dir=4;}
 	vspeed=-charSpeed;
 	hspeed=0;
 
@@ -47,21 +48,21 @@ if keyboard_check(vk_up){//up
 }
 
 if keyboard_check(vk_down){//down
-	dir=1;
+	if(condition==true){dir=1;}
 	vspeed=charSpeed;
 	hspeed=0;
 
 }
 
 if keyboard_check(vk_left){//left
-	dir=2;
+	if(condition==true){dir=2;}
 	hspeed=-charSpeed;
 	vspeed=0;
 
 }
 
 if keyboard_check(vk_right){//right
-	dir=3;
+	if(condition==true){dir=3;}
 	hspeed=charSpeed;
 	vspeed=0;
 
