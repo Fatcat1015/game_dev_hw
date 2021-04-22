@@ -19,6 +19,6 @@ stun_timer = 0;
 charge_timer = 0;
 
 
-HP = 5;
+global.U_HP = 5;
 Damage = 2;
 enemySpeed = 1;

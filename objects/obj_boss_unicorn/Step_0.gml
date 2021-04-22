@@ -2,7 +2,10 @@
 // You can write your code in this editor
 event_inherited();
 
-
+if(obj_unicorn_attribute.U_HP<=0)
+{
+	state = die;
+}
 switch(state)
 {
 	case chase:
@@ -62,9 +65,30 @@ switch(state)
 		}
 		
 	case attack:
-		instance_create_layer(x,y,"Instances",obj_unicorn_laser);
+		instance_create_layer(x,y,"Instances",obj_unicorn_attack);
 		state = chase;
 		break;
+		
+	case hit:
+		sprite_index = spr_unicorn_hit;
+		stun_timer++;
+		if(stun_timer >= 0.5*room_speed)
+		{
+			state = chase;
+			stun_timer = 0;
+		}
+		break;
+	
+	case die:
+		sprite_index = spr_unicorn_die;
+		image_alpha -= 0.1;
+		if(image_alpha <=0)
+		{
+			instance_destroy();
+		}
+		break;
+		
+		
 	
 		
 }

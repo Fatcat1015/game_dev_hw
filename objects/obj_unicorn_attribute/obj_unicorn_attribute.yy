@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "Spr_Uhead_Bubble",
-    "path": "sprites/Spr_Uhead_Bubble/Spr_Uhead_Bubble.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -21,7 +18,6 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
@@ -31,7 +27,7 @@
     "path": "folders/Objects/enemy l1/unicorn boss.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_unicorn_laser",
+  "name": "obj_unicorn_attribute",
   "tags": [],
   "resourceType": "GMObject",
 }
