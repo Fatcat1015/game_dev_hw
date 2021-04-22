@@ -62,7 +62,7 @@ switch(state)
 		}
 		
 	case attack:
-		instance_create_layer(x,y,"Instances",obj_unicorn_laser);
+		//instance_create_layer(x,y,"Instances",obj_unicorn_laser);
 		state = chase;
 		break;
 	
