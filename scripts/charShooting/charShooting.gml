@@ -6,11 +6,13 @@ function charShooting(weapon){
 			//Shoot normal bullets
 		case "MachineGun":
 		num=instance_number(Obj_Bullet_MGun)
-		if(keyboard_check_released(ord("Q"))){
-		if(num<5){
-	shoot=1;
-		obj=instance_create_layer(x,y,layer,Obj_Bullet_MGun);		
-		}
+		if(keyboard_check(ord("Q"))){
+			global.gunTimer++;
+			if(global.gunTimer>20){
+				global.gunTimer=0;
+			shoot=1;
+			obj=instance_create_layer(x,y,layer,Obj_Bullet_MGun);
+			}
 		}
 		break;
 		
