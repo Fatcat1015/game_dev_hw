@@ -6,9 +6,11 @@ if(obj_unicorn_attribute.U_HP<=0)
 {
 	state = die;
 }
+
 switch(state)
 {
 	case chase:
+		charge_timer++;
 		if(charge_timer>=2.5*room_speed)
 		{
 			state = charge;
@@ -50,7 +52,7 @@ switch(state)
 			image_xscale = -1;
 		}
 		
-		charge_timer++;
+		
 		
 		break;
 		
@@ -70,6 +72,7 @@ switch(state)
 		break;
 		
 	case hit:
+		charge_timer++;
 		sprite_index = spr_unicorn_hit;
 		stun_timer++;
 		if(stun_timer >= 0.5*room_speed)

@@ -1,12 +1,16 @@
 /// @description Insert description here
 // You can write your code in this editor
 event_inherited();
-
+if(HP<=0)
+{
+	state = die;
+}
 switch(state)
 {
 	case normal:
+		sprite_index = spr_vampire;
 		summon_timer++;
-		if(summon_timer >= 5*room_speed)
+		if(summon_timer >= 10*room_speed)
 		{
 			state = summon;
 			summon_timer = 0;
@@ -71,10 +75,25 @@ switch(state)
 		break;
 	
 	case die:
-		if(HP<=0)
+		sprite_index = spr_vampire_die;
+		image_alpha -= 0.1
+		if(image_alpha <= 0)
 		{
 			instance_destroy();
 		}
+		break;
+		
+	case hit:
+		sprite_index = spr_vampire_hit;
+		stun_timer++;
+		if(stun_timer >= 0.5*room_speed)
+		{
+			state = normal;
+			stun_timer = 0;
+		}
+		break;
+		
 	
 }
+
 

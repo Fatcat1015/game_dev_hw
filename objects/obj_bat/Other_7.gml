@@ -1,2 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
+if(state == attack)&&(attack_hit == true)
+{
+	global.hp--;
+	attack_hit = false;
+}

@@ -19,6 +19,6 @@ stun_timer = 0;
 charge_timer = 0;
 
 
-global.U_HP = 5;
+obj_unicorn_attribute.U_HP = 20;
 Damage = 2;
 enemySpeed = 1;

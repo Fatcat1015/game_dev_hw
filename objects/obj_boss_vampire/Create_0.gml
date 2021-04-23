@@ -17,7 +17,7 @@ stun_timer = 0;
 summon_timer = 0;
 
 
-HP = 5;
+HP = 10;
 Damage = 2;
 enemySpeed = 1;
 

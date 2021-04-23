@@ -3,7 +3,7 @@
 
 //Basic Parameters
 global.mhp = 100;
-global.hp = 10;
+global.hp = 100;
 global.weapons=ds_list_create();
 global.gunTimer=0;
 ds_list_add(global.weapons,"NoWeapon");

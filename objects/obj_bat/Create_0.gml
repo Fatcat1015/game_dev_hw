@@ -11,10 +11,13 @@ state = chase;
 
 target_x = 0;
 target_y = 0;
-attack_range = 100;
+attack_range = 50;
 attack_timer = 0;
 chase_timer = 0;
 stun_timer = 0;
+attack_speed = 0;
+attack_hit = false;
+
 
 
 HP = 5;

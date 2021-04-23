@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 event_inherited();
+
 target_x = Obj_Char.x;
 target_y = Obj_Char.y;
 var distanceToGo = point_distance(x,y,target_x ,target_y);
@@ -12,7 +13,6 @@ if(HP <= 0)
 switch(state)
 {
 	case chase:
-
 		sprite_index = spr_bat_chase;
 		
 		
@@ -30,34 +30,8 @@ switch(state)
 
 		
 		
-		x+=Xspeed;
+		x += Xspeed;
 		y += Yspeed;
-		/*
-		if(place_meeting(x + Xspeed, y, obj_collision))
-		{
-	
-	
-				while(!place_meeting(x+sign(Xspeed),y,obj_collision))
-				{
-					x += sign(Xspeed);
-				}
-				Xspeed = 0;
-	
-		}
-		
-
-		if(place_meeting(x , y+ Yspeed, obj_collision))
-		{
-
-	
-				while(!place_meeting(x,y+sign(Yspeed),obj_collision))
-				{
-					y += sign(Yspeed);
-				}
-				Yspeed = 0;
-	
-		}
-		*/
 		
 		
 		
@@ -74,11 +48,15 @@ switch(state)
 	
 		
 	case attack:
+		
 		sprite_index = spr_bat_attack;
+		
 		
 		if(Xspeed > 0)
 		{
 			image_xscale = 1;
+
+			
 			
 		}
 		else
@@ -86,14 +64,17 @@ switch(state)
 			image_xscale = -1;
 		}
 		
-		if(distanceToGo > attack_range)
+		attack_speed++;
+		if(attack_speed >= 1*room_speed)
 		{
 			state = idle;
-			//attack_timer = 0;
+			attack_speed=0;
 		}
+		
 		break;
 		
 	case idle:
+		
 		sprite_index = spr_bat_idle;
 		if(distanceToGo > attack_range)
 		{
@@ -103,22 +84,22 @@ switch(state)
 				state = chase;
 				chase_timer = 0;
 			}
-			break;
+			
 			
 		}
 		else
 		{
+			
 			attack_timer++;
-			if(attack_timer >= 0.1*room_speed)
+			if(attack_timer >= 1*room_speed)
 			{
 				state = attack;
 				attack_timer = 0;
 			}
-			break;
 			
 		}
 		break;
-	
+		
 	case hit:
 		sprite_index = spr_bat_hit;
 		stun_timer++;
@@ -140,3 +121,4 @@ switch(state)
 		
 
 }
+show_debug_message(state);

@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-if (state == attack)
+if(state == attack)&&(attack_hit == true)
 {
-	state = chase;
+	global.hp--;
+	attack_hit = false;
 }

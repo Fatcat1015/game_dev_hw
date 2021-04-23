@@ -57,8 +57,16 @@ switch(state)
 		if(distanceToGo > attack_range)
 		{
 			state = idle;
-			//attack_timer = 0;
 		}
+
+		attack_speed++;
+		if(attack_speed >= 1*room_speed)
+		{
+			state = idle;
+			attack_speed=0;
+		}
+		
+		break;
 		break;
 		
 	case idle:
@@ -77,7 +85,7 @@ switch(state)
 		else
 		{
 			attack_timer++;
-			if(attack_timer >= 0.1*room_speed)
+			if(attack_timer >= 1*room_speed)
 			{
 				state = attack;
 				attack_timer = 0;
