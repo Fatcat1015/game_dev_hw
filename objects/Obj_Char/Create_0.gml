@@ -8,6 +8,7 @@ global.weapons=ds_list_create();
 global.gunTimer=0;
 ds_list_add(global.weapons,"NoWeapon");
 ds_list_add(global.weapons,"MachineGun");
+ds_list_add(global.weapons,"UnicornHead");
 global.currentWeapon=0;
 crg=0;
 
