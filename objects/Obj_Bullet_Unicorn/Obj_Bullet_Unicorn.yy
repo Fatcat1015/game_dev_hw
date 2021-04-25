@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Spr_Uhead_Bubble_1",
-    "path": "sprites/Spr_Uhead_Bubble_1/Spr_Uhead_Bubble_1.yy",
+    "name": "Spr_Uhead_Bubble",
+    "path": "sprites/Spr_Uhead_Bubble/Spr_Uhead_Bubble.yy",
   },
   "solid": false,
   "visible": true,

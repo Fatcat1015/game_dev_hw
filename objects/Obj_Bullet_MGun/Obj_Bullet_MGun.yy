@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Spr_LShotter_Lemon_1",
-    "path": "sprites/Spr_LShotter_Lemon_1/Spr_LShotter_Lemon_1.yy",
+    "name": "Spr_LShotter_Lemon",
+    "path": "sprites/Spr_LShotter_Lemon/Spr_LShotter_Lemon.yy",
   },
   "solid": false,
   "visible": true,

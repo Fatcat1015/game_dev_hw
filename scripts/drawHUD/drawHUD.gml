@@ -9,11 +9,12 @@ function drawHUD(weapon){
 
 //Draw Weapons
 Y=camera_get_view_height(view_camera[0])*2-48;
-
+a=0.5;
 switch(weapon){	
 	
 	case "NoWeapon":
 	wGraphic=Spr_Empty;
+	a=4;
 	break;
 	
 	case "MachineGun":
@@ -40,6 +41,6 @@ switch(weapon){
 }
 
 
-draw_sprite_ext(wGraphic,-1,72,Y-24,4,4,0,-1,1);
+draw_sprite_ext(wGraphic,-1,72,Y-24,a,a,0,-1,1);
 draw_text_color(144,Y,weapon,c_black,c_black,c_black,c_black,1);
 }
