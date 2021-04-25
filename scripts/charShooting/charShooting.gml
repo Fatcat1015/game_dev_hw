@@ -56,6 +56,20 @@ function charShooting(weapon){
 		}
 		break;
 		
+		
+		//Unicorn Head (Unfinished)
+				case "UnicornHead":
+		num=instance_number(Obj_Bullet_MGun)
+		if(keyboard_check(ord("Q"))){
+			global.gunTimer++;
+			if(global.gunTimer>20){
+				global.gunTimer=0;
+			shoot=1;
+			obj=instance_create_layer(x,y,layer,Obj_Bullet_Unicorn);
+			}
+		}
+		break;
+		
 		}
 
 if(shoot=1){

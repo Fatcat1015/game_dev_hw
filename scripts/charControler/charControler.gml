@@ -35,7 +35,13 @@ switch(weapon){
 		imgFront=Spr_VGun_Front;
 		imgBack=Spr_VGun_Back;
 		imgHori=Spr_VGun_Hori;
-		break;		
+		break;
+		
+		case "UnicornHead":
+		imgFront=Spr_UHead_Front;
+		imgBack=Spr_UHead_Back;
+		imgHori=Spr_UHead_Hor;
+		break;	
 		}
 		
 condition=!keyboard_check(ord("Q"))||weapon=="NoWeapon";
@@ -68,21 +74,26 @@ if keyboard_check(vk_right){//right
 
 }
 
+scale=0.125;
 	if(dir==4){//up
 			sprite_index=imgBack;
-	image_xscale=1;
+	image_xscale=scale;
+	image_yscale=scale;
 	}
 	if(dir==1){//down
 		sprite_index=imgFront;
-	image_xscale=1;
+	image_xscale=scale;
+	image_yscale=scale;
 	}
 	if(dir==2){//left
 	sprite_index=imgHori;
-	image_xscale=1;
+	image_xscale=scale;
+	image_yscale=scale;
 	}
 	if(dir==3){//right
 			sprite_index=imgHori;
-	image_xscale=-1;
+	image_xscale=-scale;
+	image_yscale=scale;
 	}
 
 }
