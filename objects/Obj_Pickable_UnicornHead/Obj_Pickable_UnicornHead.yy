@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Spr_Vgun_icon_4",
-    "path": "sprites/Spr_Vgun_icon_4/Spr_Vgun_icon_4.yy",
+    "name": "Spr_LShotter_Lemon",
+    "path": "sprites/Spr_LShotter_Lemon/Spr_LShotter_Lemon.yy",
   },
   "solid": true,
   "visible": true,
@@ -22,15 +22,17 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"Obj_Char","path":"objects/Obj_Char/Obj_Char.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "PickUps",
-    "path": "folders/Objects/PickUps.yy",
+    "name": "Pickable",
+    "path": "folders/Objects/Pickable.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_VampireGun",
+  "name": "Obj_Pickable_UnicornHead",
   "tags": [],
   "resourceType": "GMObject",
 }
