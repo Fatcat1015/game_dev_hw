@@ -91,7 +91,6 @@
     {"id":{"name":"Spr_Tree_2","path":"sprites/Spr_Tree_2/Spr_Tree_2.yy",},"order":13,},
     {"id":{"name":"obj_pEnemy","path":"objects/obj_pEnemy/obj_pEnemy.yy",},"order":0,},
     {"id":{"name":"spr_bunnies_attack","path":"sprites/spr_bunnies_attack/spr_bunnies_attack.yy",},"order":2,},
-    {"id":{"name":"Room_Test","path":"rooms/Room_Test/Room_Test.yy",},"order":1,},
     {"id":{"name":"Spr_VGun_Bat_1","path":"sprites/Spr_VGun_Bat_1/Spr_VGun_Bat_1.yy",},"order":5,},
     {"id":{"name":"Spr_UHead_Front","path":"sprites/Spr_UHead_Front/Spr_UHead_Front.yy",},"order":2,},
     {"id":{"name":"Obj_Bullet_Unicorn","path":"objects/Obj_Bullet_Unicorn/Obj_Bullet_Unicorn.yy",},"order":7,},
@@ -130,7 +129,6 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"Room_Level1","path":"rooms/Room_Level1/Room_Level1.yy",},},
-    {"roomId":{"name":"Room_Test","path":"rooms/Room_Test/Room_Test.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "Folders": [
