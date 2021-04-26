@@ -57,7 +57,7 @@ switch(state)
 		break;
 		
 	case charge:
-		instance_create_layer(x,y,"Instances",obj_charging);
+		instance_create_layer(x,y,"Enemies",obj_charging);
 		instance_destroy(obj_boss_unicorn);
 		chase_timer++;
 		if(chase_timer >= 1*room_speed)
@@ -67,7 +67,7 @@ switch(state)
 		}
 		
 	case attack:
-		instance_create_layer(x,y,"Instances",obj_unicorn_attack);
+		instance_create_layer(x,y,"Enemies",obj_unicorn_attack);
 		state = chase;
 		break;
 		
