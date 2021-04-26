@@ -10,7 +10,7 @@ switch(state)
 	case normal:
 		sprite_index = spr_vampire;
 		summon_timer++;
-		if(summon_timer >= 10*room_speed)
+		if(summon_timer >= 5*room_speed)
 		{
 			state = summon;
 			summon_timer = 0;
@@ -21,12 +21,15 @@ switch(state)
 			instance_create_layer(x,y,"Instances",obj_attack);
 			attack_timer = 0;
 		}
+		break;
 
+/*
 		if(instance_exists(Obj_Bullet_Parent))
 		{
 	
 			if(Obj_Bullet_Parent.vspeed != 0)
 			{
+				
 				if(place_meeting(x,y+30,Obj_Bullet_Parent))
 				{
 	
@@ -65,7 +68,7 @@ switch(state)
 		}
 
 		break;
-		
+	*/
 	case summon:
 		for(i = 0; i<2; i++)
 		{

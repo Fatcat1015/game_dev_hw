@@ -1,5 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-global.hp--;
-obj_boss_vampire.HP++;
+obj_spawner_1.spawn = true;
 instance_destroy();
