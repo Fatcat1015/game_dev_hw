@@ -74,7 +74,7 @@ if keyboard_check(vk_right){//right
 
 }
 
-scale=0.25;
+scale=0.125;
 	if(dir==4){//up
 			sprite_index=imgBack;
 	image_xscale=scale;
