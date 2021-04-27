@@ -2,6 +2,6 @@
 // You can write your code in this editor
 if(spawn)
 {
-	instance_create_layer(x,y,"Instances",obj_boss_unicorn);
+	instance_create_layer(x,y,"Enemies",obj_boss_unicorn);
 	spawn = false;
 }

@@ -18,7 +18,7 @@ switch(state)
 		attack_timer++;
 		if(attack_timer>=1*room_speed)
 		{
-			instance_create_layer(x,y,"Instances",obj_attack);
+			instance_create_layer(x,y,"Enemies",obj_attack);
 			attack_timer = 0;
 		}
 		break;
@@ -72,7 +72,7 @@ switch(state)
 	case summon:
 		for(i = 0; i<2; i++)
 		{
-			instance_create_layer(x+5*i,y+5*i,"Instances",obj_bat);
+			instance_create_layer(x+5*i,y+5*i,"Enemies",obj_bat);
 		}
 		state = normal;
 		break;

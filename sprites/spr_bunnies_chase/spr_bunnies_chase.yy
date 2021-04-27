@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 0,
-  "bbox_right": 0,
-  "bbox_top": 0,
-  "bbox_bottom": 0,
+  "bbox_left": 9,
+  "bbox_right": 50,
+  "bbox_top": 6,
+  "bbox_bottom": 82,
   "HTile": false,
   "VTile": false,
   "For3D": false,
   "width": 64,
-  "height": 64,
+  "height": 89,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"26046902-744b-45f2-bddb-f5b0991d94f5","path":"sprites/spr_bunnies_chase/spr_bunnies_chase.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"26046902-744b-45f2-bddb-f5b0991d94f5","path":"sprites/spr_bunnies_chase/spr_bunnies_chase.yy",},"LayerId":{"name":"fbbc89db-909f-4b7d-82b3-29eba6eb5691","path":"sprites/spr_bunnies_chase/spr_bunnies_chase.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_bunnies_chase","path":"sprites/spr_bunnies_chase/spr_bunnies_chase.yy",},"resourceVersion":"1.0","name":"26046902-744b-45f2-bddb-f5b0991d94f5","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"6021c84b-ec36-4c91-ae0f-9572617aa6c2","path":"sprites/spr_bunnies_chase/spr_bunnies_chase.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"6021c84b-ec36-4c91-ae0f-9572617aa6c2","path":"sprites/spr_bunnies_chase/spr_bunnies_chase.yy",},"LayerId":{"name":"fbbc89db-909f-4b7d-82b3-29eba6eb5691","path":"sprites/spr_bunnies_chase/spr_bunnies_chase.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_bunnies_chase","path":"sprites/spr_bunnies_chase/spr_bunnies_chase.yy",},"resourceVersion":"1.0","name":"6021c84b-ec36-4c91-ae0f-9572617aa6c2","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_bunnies_chase","path":"sprites/spr_bunnies_chase/spr_bunnies_chase.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"02e861c0-9abe-459e-8f38-cd1015feae0f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"26046902-744b-45f2-bddb-f5b0991d94f5","path":"sprites/spr_bunnies_chase/spr_bunnies_chase.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"8b788a03-b044-406f-afea-805c79ad8ac2","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6021c84b-ec36-4c91-ae0f-9572617aa6c2","path":"sprites/spr_bunnies_chase/spr_bunnies_chase.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -55,7 +55,7 @@
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
     "xorigin": 32,
-    "yorigin": 32,
+    "yorigin": 44,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_bunnies_chase","path":"sprites/spr_bunnies_chase/spr_bunnies_chase.yy",},
