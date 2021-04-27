@@ -3,4 +3,4 @@
 
 damage=3;
 effect="None";
-spd=10;
+spd=15;

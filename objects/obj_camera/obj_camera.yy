@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "Spr_Nothing_1",
-    "path": "sprites/Spr_Nothing_1/Spr_Nothing_1.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -21,16 +18,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"Obj_Char","path":"objects/Obj_Char/Obj_Char.yy",},"parent":{"name":"obj_trigger_1","path":"objects/obj_trigger_1/obj_trigger_1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "triggers",
-    "path": "folders/Objects/enemy function/triggers.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_trigger_1",
+  "name": "obj_camera",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -19,6 +19,6 @@ stun_timer = 0;
 attack_hit = false;
 
 
-HP = 5;
+HP = 1;
 Damage = 2;
-enemySpeed = 1;
+enemySpeed = 12;
