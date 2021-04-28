@@ -76,7 +76,7 @@
     {"id":{"name":"spr_star","path":"sprites/spr_star/spr_star.yy",},"order":0,},
     {"id":{"name":"obj_trigger_unicorn","path":"objects/obj_trigger_unicorn/obj_trigger_unicorn.yy",},"order":8,},
     {"id":{"name":"vampire","path":"rooms/vampire/vampire.yy",},"order":3,},
-    {"id":{"name":"obj_collision","path":"objects/obj_collision/obj_collision.yy",},"order":1,},
+    {"id":{"name":"obj_collision","path":"objects/obj_collision/obj_collision.yy",},"order":2,},
     {"id":{"name":"Obj_Pickable_MachineGun","path":"objects/Obj_Pickable_MachineGun/Obj_Pickable_MachineGun.yy",},"order":0,},
     {"id":{"name":"Spr_Char_Idle","path":"sprites/Spr_Char_Idle/Spr_Char_Idle.yy",},"order":3,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
@@ -207,7 +207,7 @@
     {"folderPath":"folders/Scripts/Weapons.yy","order":2,"resourceVersion":"1.0","name":"Weapons","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Map.yy","order":14,"resourceVersion":"1.0","name":"Map","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Pickable.yy","order":10,"resourceVersion":"1.0","name":"Pickable","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/Objects/enemy function/triggers.yy","order":2,"resourceVersion":"1.0","name":"triggers","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/enemy function/triggers.yy","order":1,"resourceVersion":"1.0","name":"triggers","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/vamp.yy","order":18,"resourceVersion":"1.0","name":"vamp","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [

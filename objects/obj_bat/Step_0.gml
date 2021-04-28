@@ -30,7 +30,31 @@ switch(state)
 
 		
 		
-		x += Xspeed;
+		if(place_meeting(x + Xspeed, y, obj_collision))
+		{
+	
+	
+				while(!place_meeting(x+sign(Xspeed),y,obj_collision))
+				{
+					x += sign(Xspeed);
+				}
+				Xspeed = 0;
+	
+		}
+		x+=Xspeed;
+		
+
+		if(place_meeting(x , y+ Yspeed, obj_collision))
+		{
+
+	
+				while(!place_meeting(x,y+sign(Yspeed),obj_collision))
+				{
+					y += sign(Yspeed);
+				}
+				Yspeed = 0;
+	
+		}
 		y += Yspeed;
 		
 		

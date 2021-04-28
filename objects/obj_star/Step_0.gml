@@ -21,9 +21,9 @@ switch(state)
 			Xspeed = lengthdir_x(distanceToGo,dir);
 			Yspeed = lengthdir_y(distanceToGo,dir);
 		}
-		x+=Xspeed;
-		y += Yspeed;
-		/*
+		
+		
+		
 		if(place_meeting(x + Xspeed, y, obj_collision))
 		{
 	
@@ -35,6 +35,7 @@ switch(state)
 				Xspeed = 0;
 	
 		}
+		x+=Xspeed;
 		
 
 		if(place_meeting(x , y+ Yspeed, obj_collision))
@@ -48,7 +49,7 @@ switch(state)
 				Yspeed = 0;
 	
 		}
-		*/
+		y += Yspeed;
 
 		if(place_meeting(x , y+Xspeed, Obj_Char))
 		{
