@@ -5,6 +5,7 @@ target_x = Obj_Char.x;
 target_y = Obj_Char.y;
 var distanceToGo = point_distance(x,y,target_x ,target_y);
 
+
 if(HP <= 0)
 {
 		state = die;
@@ -12,7 +13,7 @@ if(HP <= 0)
 switch(state)
 {
 	case chase:
-
+		image_blend = c_white;
 		sprite_index = spr_bunnies_chase;
 		
 		
@@ -43,6 +44,7 @@ switch(state)
 	
 		
 	case attack:
+		image_blend = c_white;
 		sprite_index = spr_bunnies_attack;
 		if(Xspeed > 0)
 		{
@@ -67,9 +69,17 @@ switch(state)
 		}
 		
 		break;
-		break;
 		
 	case idle:
+	if(Xspeed > 0)
+	{
+		image_xscale = 1;
+	}
+	else
+	{
+		image_xscale = -1;
+	}
+		image_blend = c_white;
 		sprite_index = spr_bunnies_idle;
 		if(distanceToGo > attack_range)
 		{
@@ -96,6 +106,7 @@ switch(state)
 		break;
 	
 	case hit:
+		image_blend = make_colour_rgb(255, 0, 0);
 		sprite_index = spr_bunnies_hit;
 		stun_timer++;
 		if(stun_timer >= 0.5*room_speed)
@@ -106,8 +117,16 @@ switch(state)
 		break;
 		
 	case die:
+		if(Xspeed > 0)
+		{
+			image_xscale = -1;
+		}
+		else
+		{
+			image_xscale = 1;
+		}
 		sprite_index = spr_bunnies_die;
-		image_alpha -= 0.1;
+		image_alpha -= 0.01;
 		if(image_alpha <=0)
 		{
 			instance_destroy();

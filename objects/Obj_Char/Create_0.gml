@@ -12,7 +12,7 @@ global.currentWeapon=0;
 crg=0;
 
 //Private
-moveSpeed=3;
+moveSpeed=3.3;
 
 //down 1 left2 right3 up4
 dir=1;

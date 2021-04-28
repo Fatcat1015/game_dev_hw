@@ -4,6 +4,7 @@ event_inherited();
 switch(state)
 {
 	case star_chase:
+		image_blend = c_white;
 		sprite_index = spr_star;
 		target_x  = Obj_Char.x;
 		target_y = Obj_Char.y;
@@ -75,6 +76,7 @@ switch(state)
 		
 		
 	case star_explode:
+		image_blend = c_white;
 		sprite_index = spr_explode;
 		image_alpha -= 0.05;
 		if(image_alpha <= 0)
@@ -85,7 +87,8 @@ switch(state)
 		
 	case star_die:
 		sprite_index = spr_die;
-		image_alpha -= 0.05;
+		image_alpha -= 0.01;
+		image_blend = make_colour_rgb(255, 15, 2);
 		if(image_alpha <= 0)
 		{
 			instance_destroy();
@@ -93,11 +96,14 @@ switch(state)
 		break;
 	
 	case star_hit:
+		sprite_index = spr_hit;
+		image_blend = make_colour_rgb(251, 255, 73);
+		
 		if(HP<=0)
 		{
 			state = star_die;
 		}
-		sprite_index = spr_hit;
+		
 		stun_timer++;
 		if(stun_timer >= 0.5*room_speed)
 		{

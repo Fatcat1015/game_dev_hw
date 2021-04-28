@@ -5,7 +5,7 @@ target_x = 0;
 target_y = 0;
 
 
-
+attack_hit  = false;
 enemySpeed = 1.5;
 stun_timer = 0;
 
@@ -16,6 +16,6 @@ star_hit = 3;
 
 
 state = star_chase;
-HP = 5;
+HP = 3;
 Damage = 5;
 

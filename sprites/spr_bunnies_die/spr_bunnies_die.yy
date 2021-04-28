@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 0,
-  "bbox_right": 49,
-  "bbox_top": 7,
-  "bbox_bottom": 57,
+  "bbox_left": 14,
+  "bbox_right": 163,
+  "bbox_top": 36,
+  "bbox_bottom": 109,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 64,
-  "height": 64,
+  "width": 178,
+  "height": 128,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"687c396e-7bba-422a-85b1-41ede20ee2a1","path":"sprites/spr_bunnies_die/spr_bunnies_die.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"687c396e-7bba-422a-85b1-41ede20ee2a1","path":"sprites/spr_bunnies_die/spr_bunnies_die.yy",},"LayerId":{"name":"af905224-2953-4e99-af2b-771f96c29722","path":"sprites/spr_bunnies_die/spr_bunnies_die.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_bunnies_die","path":"sprites/spr_bunnies_die/spr_bunnies_die.yy",},"resourceVersion":"1.0","name":"687c396e-7bba-422a-85b1-41ede20ee2a1","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"eaf1a4d0-7b3c-421d-a071-41755992da14","path":"sprites/spr_bunnies_die/spr_bunnies_die.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"eaf1a4d0-7b3c-421d-a071-41755992da14","path":"sprites/spr_bunnies_die/spr_bunnies_die.yy",},"LayerId":{"name":"af905224-2953-4e99-af2b-771f96c29722","path":"sprites/spr_bunnies_die/spr_bunnies_die.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_bunnies_die","path":"sprites/spr_bunnies_die/spr_bunnies_die.yy",},"resourceVersion":"1.0","name":"eaf1a4d0-7b3c-421d-a071-41755992da14","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_bunnies_die","path":"sprites/spr_bunnies_die/spr_bunnies_die.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"f4ca25f9-ecba-41bb-bbe0-b0c6feff63f2","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"687c396e-7bba-422a-85b1-41ede20ee2a1","path":"sprites/spr_bunnies_die/spr_bunnies_die.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"8a1bcc25-6ff3-4f01-bdc7-3388e2c9dbff","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"eaf1a4d0-7b3c-421d-a071-41755992da14","path":"sprites/spr_bunnies_die/spr_bunnies_die.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,

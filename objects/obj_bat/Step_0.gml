@@ -14,7 +14,7 @@ switch(state)
 {
 	case chase:
 		sprite_index = spr_bat_chase;
-		
+		image_blend = c_white;
 		
 		dir = point_direction(x,y,target_x ,target_y);
 		
@@ -48,7 +48,7 @@ switch(state)
 	
 		
 	case attack:
-		
+		image_blend = c_white;
 		sprite_index = spr_bat_attack;
 		
 		
@@ -74,7 +74,7 @@ switch(state)
 		break;
 		
 	case idle:
-		
+		image_blend = c_white;
 		sprite_index = spr_bat_idle;
 		if(distanceToGo > attack_range)
 		{
@@ -102,6 +102,7 @@ switch(state)
 		
 	case hit:
 		sprite_index = spr_bat_hit;
+		image_blend = make_colour_rgb(255, 40, 2);
 		stun_timer++;
 		if(stun_timer >= 0.5*room_speed)
 		{
@@ -111,8 +112,9 @@ switch(state)
 		break;
 		
 	case die:
+		image_blend = make_colour_rgb(255, 40, 2);
 		sprite_index = spr_bat_die;
-		image_alpha -= 0.1;
+		image_alpha -= 0.01;
 		if(image_alpha <=0)
 		{
 			instance_destroy();
