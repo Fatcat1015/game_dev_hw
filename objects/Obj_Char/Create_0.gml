@@ -14,7 +14,18 @@ crg=0;
 //Private
 moveSpeed=3.3;
 
-//down 1 left2 right3 up4
-dir=1;
+dir=0;
+
+scale=0.125;
+
+		imgFront=Spr_Char_Front;
+		imgBack=Spr_Char_Back;
+		imgHori=Spr_Char_Hori;
+		
+			sprite_index=imgFront;
+	image_xscale=scale;
+	image_yscale=scale;
+		
+		
 
 

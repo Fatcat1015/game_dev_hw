@@ -1,9 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-charControler(moveSpeed);
 charCamera();
-charShooting(global.weapons[|global.currentWeapon]);
+charShooting(global.weapons[|global.currentWeapon],moveSpeed,scale);
 
 //Change Weapons
 if(keyboard_check_released(vk_space)){

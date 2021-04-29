@@ -1,5 +1,5 @@
 // v2.3.0的脚本资产已更改，请参见\ n // https://help.yoyogames.com/hc/en-us/articles/360005277377
-function charShooting(weapon){
+function charShooting(weapon,charSpeed,scale){
 	shoot=0;
 		switch(weapon){
 			
@@ -52,7 +52,7 @@ function charShooting(weapon){
 		
 		
 		
-		//Shoot Paralyze Bullets
+		/*//Shoot Paralyze Bullets
 		case "PlasmaGun":
 			imgFront=Spr_PGun_Front;
 		imgBack=Spr_PGun_Back;
@@ -102,18 +102,73 @@ function charShooting(weapon){
 		obj=instance_create_layer(x,y,layer,Obj_Bullet_VGun);		
 		}
 		}
-		break;
+		break;*/
+		}
 		
 		
+hspeed=0;
+vspeed=0;
+
+if keyboard_check(ord("W")){//up
+
+	vspeed=-charSpeed;
+	hspeed=0;
+	
+	if keyboard_check(ord("D")) 	hspeed=charSpeed;
+	if keyboard_check(ord("A"))		hspeed=-charSpeed;
+	
+	if(dir==0){
+					sprite_index=imgBack;
+	image_xscale=scale;
+	image_yscale=scale;
+	}
+}
+
+
+else if keyboard_check(ord("S")){//down
+	vspeed=charSpeed;
+	hspeed=0;
+	
+		if keyboard_check(ord("D")) 	hspeed=charSpeed;
+	if keyboard_check(ord("A"))		hspeed=-charSpeed;
+	
+		if(dir==0){
+	sprite_index=imgFront;
+	image_xscale=scale;
+	image_yscale=scale;
+	}
+
+}
+
+
+else if keyboard_check(ord("A")){//left
+	hspeed=-charSpeed;
+	vspeed=0;
+	
+		if(dir==0){
+	sprite_index=imgHori;
+	image_xscale=scale;
+	image_yscale=scale;
+	}
+
+}
+
+else if keyboard_check(ord("D")){//right
+	hspeed=charSpeed;
+	vspeed=0;
+	
+		if(dir==0){
+	sprite_index=imgHori;
+	image_xscale=-scale;
+	image_yscale=scale;
+	}
+
+}
 
 		
-		}
 
 if(shoot=1){
-	if(dir==5){//up
-		obj.hspeed=0;
-		obj.vspeed=-obj.spd;
-	}
+
 	if(dir==1){//down
 		obj.hspeed=0;
 		obj.vspeed=obj.spd;
@@ -122,16 +177,20 @@ if(shoot=1){
 	obj.hspeed=-obj.spd;
 		obj.vspeed=0;
 	}
+		if(dir==5){//up
+		obj.hspeed=0;
+		obj.vspeed=-obj.spd;
+	}
 		if(dir==7){//right
 		obj.hspeed=obj.spd;
 		obj.vspeed=0;
 	}
 	shoot=0;
-}
+}else dir=0;
 
-scale=0.125;
+
 	if(dir==5){//up
-			sprite_index=imgBack;
+	sprite_index=imgBack;
 	image_xscale=scale;
 	image_yscale=scale;
 	}

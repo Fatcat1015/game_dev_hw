@@ -102,7 +102,6 @@
     {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},"order":6,},
     {"id":{"name":"obj_charging","path":"objects/obj_charging/obj_charging.yy",},"order":1,},
     {"id":{"name":"Spr_Fgun_icon_3","path":"sprites/Spr_Fgun_icon_3/Spr_Fgun_icon_3.yy",},"order":8,},
-    {"id":{"name":"charControler","path":"scripts/charControler/charControler.yy",},"order":1,},
     {"id":{"name":"Spr_FGun_Front","path":"sprites/Spr_FGun_Front/Spr_FGun_Front.yy",},"order":2,},
     {"id":{"name":"spr_bat_hit","path":"sprites/spr_bat_hit/spr_bat_hit.yy",},"order":2,},
     {"id":{"name":"obj_spawner_unicorn","path":"objects/obj_spawner_unicorn/obj_spawner_unicorn.yy",},"order":3,},
