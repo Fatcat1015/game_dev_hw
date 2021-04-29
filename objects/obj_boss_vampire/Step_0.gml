@@ -70,10 +70,21 @@ switch(state)
 		break;
 	*/
 	case summon:
-		for(i = 0; i<2; i++)
+		if(distance_to_object(obj_bat) <= 200)
 		{
-			instance_create_layer(x+5*i,y+5*i,"Enemies",obj_bat);
+			near = true;
 		}
+		else
+		{
+			near = false;
+		}
+		
+		if(!near)
+		{
+
+			instance_create_layer(x+50,y-100,"Enemies",obj_bat);
+			
+		}		
 		state = normal;
 		break;
 	

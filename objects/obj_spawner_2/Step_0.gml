@@ -1,17 +1,24 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(spawn)
+if(distance_to_object(obj_star) <= 200)
 {
-	
-	for(i = 0; i<2; i++)
+	near = true;
+}
+else
+{
+	near = false;
+}
+if(spawn)&&(!near)
+{
+	timer ++;
+	if(timer >= 0.5*room_speed)
 	{
-		
-		instance_create_layer(x+i*irandom(20),y+i*irandom(20),"Enemies",obj_bunnies)
+		instance_create_layer(x+irandom(20),y+irandom(20),"Enemies",obj_star);
+		timer = 0;
+		count++;
 	}
-	for(i = 0; i<6; i++)
+	if(count == 6) 
 	{
-		
-		instance_create_layer(x+i*irandom(20),y+i*irandom(20),"Enemies",obj_star)
+		spawn = false;
 	}
-	spawn = false;
 }
