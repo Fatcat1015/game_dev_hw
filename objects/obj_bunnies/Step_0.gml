@@ -143,11 +143,11 @@ switch(state)
 	case die:
 		if(Xspeed > 0)
 		{
-			image_xscale = -1;
+			image_xscale = 1;
 		}
 		else
 		{
-			image_xscale = 1;
+			image_xscale = -1;
 		}
 		sprite_index = spr_bunnies_die;
 		image_alpha -= 0.01;
