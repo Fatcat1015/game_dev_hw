@@ -5,7 +5,7 @@
 global.mhp = 100;
 global.hp = 100;
 global.weapons=ds_list_create();
-global.gunTimer=0;
+global.gunTimer=19;
 ds_list_add(global.weapons,"NoWeapon");
 
 global.currentWeapon=0;
