@@ -61,11 +61,11 @@ switch(state)
 		
 		if(Xspeed > 0)
 		{
-			image_xscale = 1;
+			image_xscale =scale;
 		}
 		else
 		{
-			image_xscale = -1;
+			image_xscale = -scale;
 		}
 		break;
 		
@@ -78,14 +78,14 @@ switch(state)
 		
 		if(Xspeed > 0)
 		{
-			image_xscale = 1;
+			image_xscale = scale;
 
 			
 			
 		}
 		else
 		{
-			image_xscale = -1;
+			image_xscale = -scale;
 		}
 		
 		attack_speed++;

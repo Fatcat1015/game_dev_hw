@@ -2,20 +2,20 @@
   "bboxMode": 1,
   "collisionKind": 1,
   "type": 0,
-  "origin": 4,
+  "origin": 9,
   "preMultiplyAlpha": false,
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 127,
+  "bbox_right": 1279,
   "bbox_top": 0,
-  "bbox_bottom": 97,
+  "bbox_bottom": 983,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 128,
-  "height": 98,
+  "width": 1280,
+  "height": 984,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"e300a81b-e3b7-48a5-a853-a1ad2dd5a775","path":"sprites/spr_bat_chase/spr_bat_chase.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e300a81b-e3b7-48a5-a853-a1ad2dd5a775","path":"sprites/spr_bat_chase/spr_bat_chase.yy",},"LayerId":{"name":"228ddc7f-ff8e-4154-affc-2d9197107b26","path":"sprites/spr_bat_chase/spr_bat_chase.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_bat_chase","path":"sprites/spr_bat_chase/spr_bat_chase.yy",},"resourceVersion":"1.0","name":"e300a81b-e3b7-48a5-a853-a1ad2dd5a775","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"596823fd-20b1-4215-90e6-199294d9a663","path":"sprites/spr_bat_chase/spr_bat_chase.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"596823fd-20b1-4215-90e6-199294d9a663","path":"sprites/spr_bat_chase/spr_bat_chase.yy",},"LayerId":{"name":"228ddc7f-ff8e-4154-affc-2d9197107b26","path":"sprites/spr_bat_chase/spr_bat_chase.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_bat_chase","path":"sprites/spr_bat_chase/spr_bat_chase.yy",},"resourceVersion":"1.0","name":"596823fd-20b1-4215-90e6-199294d9a663","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"6822f726-25a7-4d7d-9029-9c5dcb1cf016","path":"sprites/spr_bat_chase/spr_bat_chase.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"6822f726-25a7-4d7d-9029-9c5dcb1cf016","path":"sprites/spr_bat_chase/spr_bat_chase.yy",},"LayerId":{"name":"228ddc7f-ff8e-4154-affc-2d9197107b26","path":"sprites/spr_bat_chase/spr_bat_chase.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_bat_chase","path":"sprites/spr_bat_chase/spr_bat_chase.yy",},"resourceVersion":"1.0","name":"6822f726-25a7-4d7d-9029-9c5dcb1cf016","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"c0a3df4e-fd02-4888-88ef-e8b3df6b2f5e","path":"sprites/spr_bat_chase/spr_bat_chase.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"c0a3df4e-fd02-4888-88ef-e8b3df6b2f5e","path":"sprites/spr_bat_chase/spr_bat_chase.yy",},"LayerId":{"name":"228ddc7f-ff8e-4154-affc-2d9197107b26","path":"sprites/spr_bat_chase/spr_bat_chase.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_bat_chase","path":"sprites/spr_bat_chase/spr_bat_chase.yy",},"resourceVersion":"1.0","name":"c0a3df4e-fd02-4888-88ef-e8b3df6b2f5e","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_bat_chase","path":"sprites/spr_bat_chase/spr_bat_chase.yy",},
@@ -44,8 +44,8 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"61b8679c-6c91-41af-89ca-d059da6a0dc2","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e300a81b-e3b7-48a5-a853-a1ad2dd5a775","path":"sprites/spr_bat_chase/spr_bat_chase.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"0da314ca-eaf0-4a1e-8f8b-6b4f48a7d8ab","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"596823fd-20b1-4215-90e6-199294d9a663","path":"sprites/spr_bat_chase/spr_bat_chase.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"0673cc56-3340-4e49-9555-37a562371b06","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6822f726-25a7-4d7d-9029-9c5dcb1cf016","path":"sprites/spr_bat_chase/spr_bat_chase.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"9b2162b4-dcb7-42d7-b4ab-4eebf15368b8","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c0a3df4e-fd02-4888-88ef-e8b3df6b2f5e","path":"sprites/spr_bat_chase/spr_bat_chase.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,8 +58,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 64,
-    "yorigin": 49,
+    "xorigin": 620,
+    "yorigin": 644,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_bat_chase","path":"sprites/spr_bat_chase/spr_bat_chase.yy",},

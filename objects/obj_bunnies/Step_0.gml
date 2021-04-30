@@ -57,11 +57,11 @@ switch(state)
 		
 		if(Xspeed > 0)
 		{
-			image_xscale = 1;
+			image_xscale = scale;
 		}
 		else
 		{
-			image_xscale = -1;
+			image_xscale = -scale;
 		}
 		break;
 		
@@ -72,12 +72,12 @@ switch(state)
 		sprite_index = spr_bunnies_attack;
 		if(Xspeed > 0)
 		{
-			image_xscale = 1;
+			image_xscale = scale;
 			
 		}
 		else
 		{
-			image_xscale = -1;
+			image_xscale = -scale;
 		}
 		
 		if(distanceToGo > attack_range)
@@ -97,11 +97,11 @@ switch(state)
 	case idle:
 	if(Xspeed > 0)
 	{
-		image_xscale = 1;
+		image_xscale = scale;
 	}
 	else
 	{
-		image_xscale = -1;
+		image_xscale = -scale;
 	}
 		image_blend = c_white;
 		sprite_index = spr_bunnies_idle;
@@ -143,11 +143,11 @@ switch(state)
 	case die:
 		if(Xspeed > 0)
 		{
-			image_xscale = 1;
+			image_xscale = scale;
 		}
 		else
 		{
-			image_xscale = -1;
+			image_xscale = -scale;
 		}
 		sprite_index = spr_bunnies_die;
 		image_alpha -= 0.01;

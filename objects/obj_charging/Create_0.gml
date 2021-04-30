@@ -8,3 +8,7 @@ damage_timer = 0;
 Xspeed = 0;
 Yspeed = 0;
 restore_timer = 0;
+
+scale = 0.1;
+image_xscale = scale;
+image_yscale = scale;

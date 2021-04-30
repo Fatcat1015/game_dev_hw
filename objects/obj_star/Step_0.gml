@@ -1,11 +1,14 @@
 /// @description Insert description here
 // You can write your code in this editor
 event_inherited();
+image_xscale = scale;
+image_yscale = scale;
 switch(state)
 {
 	case star_chase:
 		image_blend = c_white;
 		sprite_index = spr_star;
+		
 		target_x  = Obj_Char.x;
 		target_y = Obj_Char.y;
 

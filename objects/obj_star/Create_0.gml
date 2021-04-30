@@ -3,7 +3,9 @@
 event_inherited();
 target_x = 0;
 target_y = 0;
-
+scale = 0.125;
+image_xscale = scale;
+image_yscale = scale;
 
 attack_hit  = false;
 enemySpeed = 1.5;
