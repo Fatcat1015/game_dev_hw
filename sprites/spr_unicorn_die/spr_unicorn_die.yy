@@ -41,7 +41,7 @@
     "spriteId": {"name":"spr_unicorn_die","path":"sprites/spr_unicorn_die/spr_unicorn_die.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 30.0,
+    "playbackSpeed": 5.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,

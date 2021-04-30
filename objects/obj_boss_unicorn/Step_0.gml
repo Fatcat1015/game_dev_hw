@@ -84,11 +84,6 @@ switch(state)
 	
 	case die:
 		sprite_index = spr_unicorn_die;
-		image_alpha -= 0.1;
-		if(image_alpha <=0)
-		{
-			instance_destroy();
-		}
 		break;
 		
 		
