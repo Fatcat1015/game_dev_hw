@@ -26,6 +26,16 @@ if (place_meeting(x , y+ sign(Yspeed), Obj_AirWall))
 
 x += Xspeed;
 y += Yspeed;
+
+if(Xspeed >0)
+{
+	image_xscale = scale;
+}
+else
+{
+	image_xscale = -scale;
+}
+	
 if(restore_timer >1*room_speed)
 {
 	instance_create_layer(x,y,"Enemies",obj_boss_unicorn);
