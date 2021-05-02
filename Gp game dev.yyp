@@ -81,7 +81,6 @@
     {"id":{"name":"Obj_Pickable_MachineGun","path":"objects/Obj_Pickable_MachineGun/Obj_Pickable_MachineGun.yy",},"order":0,},
     {"id":{"name":"Spr_Char_Idle","path":"sprites/Spr_Char_Idle/Spr_Char_Idle.yy",},"order":3,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
-    {"id":{"name":"bunnystar","path":"rooms/bunnystar/bunnystar.yy",},"order":5,},
     {"id":{"name":"Spr_PGun_Plasma","path":"sprites/Spr_PGun_Plasma/Spr_PGun_Plasma.yy",},"order":4,},
     {"id":{"name":"Spr_Fgun_icon_2","path":"sprites/Spr_Fgun_icon_2/Spr_Fgun_icon_2.yy",},"order":7,},
     {"id":{"name":"ts_prop_2","path":"tilesets/ts_prop_2/ts_prop_2.yy",},"order":6,},
@@ -167,7 +166,7 @@
     {"roomId":{"name":"Room_Level1","path":"rooms/Room_Level1/Room_Level1.yy",},},
     {"roomId":{"name":"vampire","path":"rooms/vampire/vampire.yy",},},
     {"roomId":{"name":"unicorn","path":"rooms/unicorn/unicorn.yy",},},
-    {"roomId":{"name":"bunnystar","path":"rooms/bunnystar/bunnystar.yy",},},
+    {"roomId":{"name":"","path":"",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
