@@ -14,8 +14,8 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 1280,
-  "height": 984,
+  "width": 1223,
+  "height": 697,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"9ace8e2c-69d8-47bb-bf7f-8042c02c5c54","path":"sprites/spr_bat_die/spr_bat_die.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9ace8e2c-69d8-47bb-bf7f-8042c02c5c54","path":"sprites/spr_bat_die/spr_bat_die.yy",},"LayerId":{"name":"d5759e7e-3baf-4bd3-a73b-57e82465ac7a","path":"sprites/spr_bat_die/spr_bat_die.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_bat_die","path":"sprites/spr_bat_die/spr_bat_die.yy",},"resourceVersion":"1.0","name":"9ace8e2c-69d8-47bb-bf7f-8042c02c5c54","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"ca14bee5-76b1-4b1a-833f-5f5c73f07d51","path":"sprites/spr_bat_die/spr_bat_die.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"ca14bee5-76b1-4b1a-833f-5f5c73f07d51","path":"sprites/spr_bat_die/spr_bat_die.yy",},"LayerId":{"name":"d5759e7e-3baf-4bd3-a73b-57e82465ac7a","path":"sprites/spr_bat_die/spr_bat_die.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_bat_die","path":"sprites/spr_bat_die/spr_bat_die.yy",},"resourceVersion":"1.0","name":"ca14bee5-76b1-4b1a-833f-5f5c73f07d51","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_bat_die","path":"sprites/spr_bat_die/spr_bat_die.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"1606e333-f6e6-4819-b620-4cb54c4a572c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9ace8e2c-69d8-47bb-bf7f-8042c02c5c54","path":"sprites/spr_bat_die/spr_bat_die.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"f457fd26-f2d5-451e-a853-4afa1b5adb45","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ca14bee5-76b1-4b1a-833f-5f5c73f07d51","path":"sprites/spr_bat_die/spr_bat_die.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -54,8 +54,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 619,
-    "yorigin": 350,
+    "xorigin": 618,
+    "yorigin": 248,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_bat_die","path":"sprites/spr_bat_die/spr_bat_die.yy",},

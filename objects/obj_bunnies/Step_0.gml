@@ -80,10 +80,6 @@ switch(state)
 			image_xscale = -scale;
 		}
 		
-		if(distanceToGo > attack_range)
-		{
-			state = idle;
-		}
 
 		attack_speed++;
 		if(attack_speed >= 1*room_speed)

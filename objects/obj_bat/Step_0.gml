@@ -136,7 +136,7 @@ switch(state)
 		break;
 		
 	case die:
-		image_blend = make_colour_rgb(255, 40, 2);
+		
 		sprite_index = spr_bat_die;
 		image_alpha -= 0.01;
 		if(image_alpha <=0)

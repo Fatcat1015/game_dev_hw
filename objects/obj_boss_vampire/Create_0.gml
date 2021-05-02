@@ -3,6 +3,9 @@
 event_inherited();
 
 near = true;
+scale = 0.125;
+image_xscale = scale;
+image_yscale = scale;
 
 
 normal = 0;
@@ -18,6 +21,7 @@ attack_timer = 0;
 chase_timer = 0;
 stun_timer = 0;
 summon_timer = 0;
+summon_last = 0;
 
 
 HP = 10;
