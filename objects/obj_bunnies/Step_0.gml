@@ -28,25 +28,26 @@ switch(state)
 		{
 			state = attack;
 		}
-		if(place_meeting(x + Xspeed, y, obj_collision))
+		if(place_meeting(x + Xspeed, y,  obj_collision))
 		{
 	
-	
-				while(!place_meeting(x+sign(Xspeed),y,obj_collision))
+				
+				if(!place_meeting(x+sign(Xspeed),y, obj_collision))
 				{
 					x += sign(Xspeed);
 				}
+				
 				Xspeed = 0;
 	
 		}
 		x+=Xspeed;
 		
 
-		if(place_meeting(x , y+ Yspeed, obj_collision))
+		if(place_meeting(x , y+ Yspeed,  obj_collision))
 		{
 
-	
-				while(!place_meeting(x,y+sign(Yspeed),obj_collision))
+				
+				if(!place_meeting(x,y+sign(Yspeed), obj_collision))
 				{
 					y += sign(Yspeed);
 				}
@@ -91,16 +92,16 @@ switch(state)
 		break;
 		
 	case idle:
-	if(Xspeed > 0)
-	{
-		image_xscale = scale;
-	}
-	else
-	{
-		image_xscale = -scale;
-	}
-		image_blend = c_white;
 		sprite_index = spr_bunnies_idle;
+		image_blend = c_white;
+		if(Xspeed > 0)
+		{
+			image_xscale = scale;
+		}
+		else
+		{
+			image_xscale = -scale;
+		}
 		if(distanceToGo > attack_range)
 		{
 			chase_timer++;
