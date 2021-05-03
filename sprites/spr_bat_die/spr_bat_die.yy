@@ -1,6 +1,6 @@
 {
   "bboxMode": 2,
-  "collisionKind": 1,
+  "collisionKind": 2,
   "type": 0,
   "origin": 9,
   "preMultiplyAlpha": false,
@@ -14,8 +14,8 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 1223,
-  "height": 697,
+  "width": 1279,
+  "height": 984,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",

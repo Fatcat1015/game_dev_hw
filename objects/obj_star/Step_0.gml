@@ -27,11 +27,11 @@ switch(state)
 		
 		
 		
-		if(place_meeting(x + Xspeed, y, obj_collision))
+		if(place_meeting(x + Xspeed, y, obj_pEnemy))
 		{
 	
 	
-				while(!place_meeting(x+sign(Xspeed),y,obj_collision))
+				while(!place_meeting(x+sign(Xspeed),y,obj_pEnemy))
 				{
 					x += sign(Xspeed);
 				}
@@ -41,11 +41,11 @@ switch(state)
 		x+=Xspeed;
 		
 
-		if(place_meeting(x , y+ Yspeed, obj_collision))
+		if(place_meeting(x , y+ Yspeed, obj_pEnemy))
 		{
 
 	
-				while(!place_meeting(x,y+sign(Yspeed),obj_collision))
+				while(!place_meeting(x,y+sign(Yspeed),obj_pEnemy))
 				{
 					y += sign(Yspeed);
 				}

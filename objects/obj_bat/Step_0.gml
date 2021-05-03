@@ -18,23 +18,23 @@ switch(state)
 		
 		dir = point_direction(x,y,target_x ,target_y);
 		
-		if(distanceToGo > enemySpeed)
+		if(distanceToGo >attack_range)
 		{
 			Xspeed = lengthdir_x(enemySpeed,dir);
 			Yspeed = lengthdir_y(enemySpeed,dir);
 		}
-		if(distanceToGo < attack_range)
+		else
 		{
 			state = attack;
 		}
 
 		
 		
-		if(place_meeting(x + Xspeed, y, obj_collision))
+		if(place_meeting(x + Xspeed, y, obj_pEnemy))
 		{
 	
 	
-				while(!place_meeting(x+sign(Xspeed),y,obj_collision))
+				while(!place_meeting(x+sign(Xspeed),y,obj_pEnemy))
 				{
 					x += sign(Xspeed);
 				}
@@ -44,11 +44,11 @@ switch(state)
 		x+=Xspeed;
 		
 
-		if(place_meeting(x , y+ Yspeed, obj_collision))
+		if(place_meeting(x , y+ Yspeed, obj_pEnemy))
 		{
 
 	
-				while(!place_meeting(x,y+sign(Yspeed),obj_collision))
+				while(!place_meeting(x,y+sign(Yspeed),obj_pEnemy))
 				{
 					y += sign(Yspeed);
 				}
@@ -125,6 +125,9 @@ switch(state)
 		break;
 		
 	case hit:
+		attack_timer = 0;
+		chase_timer = 0;
+		attack_speed = 0;
 		sprite_index = spr_bat_hit;
 		image_blend = make_colour_rgb(255, 40, 2);
 		stun_timer++;
@@ -147,4 +150,3 @@ switch(state)
 		
 
 }
-show_debug_message(state);

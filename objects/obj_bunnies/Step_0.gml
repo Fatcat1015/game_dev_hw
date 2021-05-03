@@ -19,50 +19,51 @@ switch(state)
 		
 		dir = point_direction(x,y,target_x ,target_y);
 		
-		if(distanceToGo > enemySpeed)
+		if(distanceToGo > attack_range)
 		{
 			Xspeed = lengthdir_x(enemySpeed,dir);
 			Yspeed = lengthdir_y(enemySpeed,dir);
 		}
-		if(distanceToGo < attack_range)
+		else
 		{
 			state = attack;
 		}
-		if(place_meeting(x + Xspeed, y,  obj_collision))
+		
+		if(place_meeting(x + Xspeed, y, obj_pEnemy))
 		{
 	
-				
-				if(!place_meeting(x+sign(Xspeed),y, obj_collision))
+	
+				while(!place_meeting(x+sign(Xspeed),y,obj_pEnemy))
 				{
 					x += sign(Xspeed);
 				}
-				
 				Xspeed = 0;
 	
 		}
 		x+=Xspeed;
 		
 
-		if(place_meeting(x , y+ Yspeed,  obj_collision))
+		if(place_meeting(x , y+ Yspeed, obj_pEnemy))
 		{
 
-				
-				if(!place_meeting(x,y+sign(Yspeed), obj_collision))
+	
+				while(!place_meeting(x,y+sign(Yspeed),obj_pEnemy))
 				{
 					y += sign(Yspeed);
 				}
 				Yspeed = 0;
 	
 		}
+		
 		y += Yspeed;
 		
-		if(Xspeed > 0)
+		if(dir > 90) &&(dir <270 )
 		{
-			image_xscale = scale;
+			image_xscale = -scale;
 		}
 		else
 		{
-			image_xscale = -scale;
+			image_xscale = scale;
 		}
 		break;
 		
@@ -71,14 +72,13 @@ switch(state)
 	case attack:
 		image_blend = c_white;
 		sprite_index = spr_bunnies_attack;
-		if(Xspeed > 0)
+		if(dir > 90) &&(dir <270 )
 		{
-			image_xscale = scale;
-			
+			image_xscale = -scale;
 		}
 		else
 		{
-			image_xscale = -scale;
+			image_xscale = scale;
 		}
 		
 
@@ -94,13 +94,13 @@ switch(state)
 	case idle:
 		sprite_index = spr_bunnies_idle;
 		image_blend = c_white;
-		if(Xspeed > 0)
+		if(dir > 90) &&(dir <270 )
 		{
-			image_xscale = scale;
+			image_xscale = -scale;
 		}
 		else
 		{
-			image_xscale = -scale;
+			image_xscale = scale;
 		}
 		if(distanceToGo > attack_range)
 		{
@@ -138,13 +138,13 @@ switch(state)
 		break;
 		
 	case die:
-		if(Xspeed > 0)
+		if(dir > 90) &&(dir <270 )
 		{
-			image_xscale = scale;
+			image_xscale = -scale;
 		}
 		else
 		{
-			image_xscale = -scale;
+			image_xscale = scale;
 		}
 		sprite_index = spr_bunnies_die;
 		image_alpha -= 0.01;
@@ -156,5 +156,6 @@ switch(state)
 		
 
 }
+show_debug_message(dir);
 
 
