@@ -34,7 +34,6 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_bead","path":"objects/obj_bead/obj_bead.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2592.0,"y":448.0,"resourceVersion":"1.0","name":"inst_12F66009","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_bead","path":"objects/obj_bead/obj_bead.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2368.0,"y":1632.0,"resourceVersion":"1.0","name":"inst_59F609C5","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_carrot","path":"objects/obj_carrot/obj_carrot.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1152.0,"y":992.0,"resourceVersion":"1.0","name":"inst_77D7A77F","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_green","path":"objects/obj_green/obj_green.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2848.0,"y":928.0,"resourceVersion":"1.0","name":"inst_2DBC8249","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances_1","tags":[],"resourceType":"GMRInstanceLayer",},
     {"assets":[
         {"spriteId":{"name":"spr_sky","path":"sprites/spr_sky/spr_sky.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.61337078,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-224.0,"y":-64.0,"resourceVersion":"1.0","name":"graphic_6FD2DF26","tags":[],"resourceType":"GMRSpriteGraphic",},
@@ -67,7 +66,6 @@
     {"name":"inst_12F66009","path":"rooms/lv1/lv1.yy",},
     {"name":"inst_59F609C5","path":"rooms/lv1/lv1.yy",},
     {"name":"inst_77D7A77F","path":"rooms/lv1/lv1.yy",},
-    {"name":"inst_2DBC8249","path":"rooms/lv1/lv1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
