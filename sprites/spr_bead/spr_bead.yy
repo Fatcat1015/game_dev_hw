@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e78a8725-48fd-41d0-b8e4-5da570bd7b09","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "props",
-    "path": "folders/Sprites/props.yy",
+    "name": "Props",
+    "path": "folders/Sprites/Props.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_bead",

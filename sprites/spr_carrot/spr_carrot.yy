@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"80c9197e-f0b2-4c78-b9d2-4c23a82e48a7","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "props",
-    "path": "folders/Sprites/props.yy",
+    "name": "Props",
+    "path": "folders/Sprites/Props.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_carrot",

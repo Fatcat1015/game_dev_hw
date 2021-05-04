@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"00d0559a-7cb9-41b1-a503-494a297b5371","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "props",
-    "path": "folders/Sprites/props.yy",
+    "name": "Props",
+    "path": "folders/Sprites/Props.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_clock",

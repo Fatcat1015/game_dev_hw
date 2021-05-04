@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e34864e0-e0f1-4d95-a27a-685ea7f9bbbe","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "props",
-    "path": "folders/Sprites/props.yy",
+    "name": "Props",
+    "path": "folders/Sprites/Props.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_card",

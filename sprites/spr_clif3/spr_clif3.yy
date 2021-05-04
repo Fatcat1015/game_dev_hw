@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b92a42f1-5b35-4149-98f3-f38d428eb33d","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "props",
-    "path": "folders/Sprites/props.yy",
+    "name": "Props",
+    "path": "folders/Sprites/Props.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_clif3",
