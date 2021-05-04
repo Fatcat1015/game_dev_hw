@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_bluefire",
+    "path": "sprites/spr_bluefire/spr_bluefire.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -25,7 +28,7 @@
     "path": "folders/Objects/props.yy",
   },
   "resourceVersion": "1.0",
-  "name": "mushroom1",
+  "name": "obj_cluefire",
   "tags": [],
   "resourceType": "GMObject",
 }
